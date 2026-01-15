@@ -1,4 +1,4 @@
-/**
+ss/**
 * Template Name: Bocor
 * Template URL: https://bootstrapmade.com/bocor-bootstrap-template-nice-animation/
 * Updated: Aug 07 2024 with Bootstrap v5.3.3
@@ -1821,12 +1821,4 @@ section,
   max-width: 80%;
   margin: 0 auto;
   display: block;
-}
-
-function scrollAbajo() {
-  window.scrollBy({
-    top: 300,   // cantidad de scroll (ajústalo)
-    left: 0,
-    behavior: 'smooth'
-  });
 }
