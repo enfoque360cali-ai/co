@@ -1826,8 +1826,8 @@ section,
 
 <style>
 img[src*="logo.png"] {
-  width: 70%;
-  max-width: 420px;
+  width: 100%;
+  max-width: 500px;
   height: auto;
 }
 </style>
