@@ -264,20 +264,37 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="https://formsubmit.co/enfoque360cali@gmail.com" method="POST">
+            <form action="https://formsubmit.co/enfoque360cali@gmail.com" method="POST" class="php-email-form">
 
-  <!-- tus inputs normales -->
-  <input type="text" name="name" required>
-  <input type="email" name="email" required>
-  <input type="text" name="subject" required>
-  <textarea name="message" required></textarea>
+  <div class="row">
+    <div class="col-md-6">
+      <input type="text" name="name" class="form-control" placeholder="Tu nombre" required>
+    </div>
 
-  <!-- ocultos -->
+    <div class="col-md-6">
+      <input type="email" name="email" class="form-control" placeholder="Tu correo" required>
+    </div>
+  </div>
+
+  <input type="text" name="subject" class="form-control mt-3" placeholder="Asunto" required>
+
+  <textarea name="message" class="form-control mt-3" rows="5" placeholder="Mensaje" required></textarea>
+
+  <!-- FormSubmit -->
   <input type="hidden" name="_captcha" value="false">
   <input type="hidden" name="_template" value="table">
 
-  <button type="submit">Enviar</button>
+  <div class="my-3">
+    <div class="loading">Cargando...</div>
+    <div class="error-message"></div>
+    <div class="sent-message">Tu mensaje ha sido enviado. ¡Gracias!</div>
+  </div>
+
+  <div class="text-center">
+    <button type="submit">Enviar mensaje</button>
+  </div>
 </form>
+
           </div><!-- End Contact Form -->
 
         </div>
