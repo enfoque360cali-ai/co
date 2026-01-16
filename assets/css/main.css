@@ -1822,3 +1822,14 @@ section,
   margin: 0 auto;
   display: block;
 }
+
+
+
+<style>
+.hero img {
+  width: 70%;
+  max-width: 420px;
+  height: auto;
+}
+</style>
+
