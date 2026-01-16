@@ -265,6 +265,9 @@
 
           <div class="col-lg-6">
             <form action="https://formsubmit.co/enfoque360cali@gmail.com" method="POST" class="php-email-form">
+<div id="form-success" class="alert alert-success mt-4 d-none">
+  ✅ Tu mensaje fue enviado con éxito. ¡Gracias por escribirnos!
+</div>
 
   <div class="row">
     <div class="col-md-6">
@@ -283,6 +286,7 @@
   <!-- FormSubmit -->
   <input type="hidden" name="_captcha" value="false">
   <input type="hidden" name="_template" value="table">
+<input type="hidden" name="_next" value="https://enfoque360cali-ai.github.io/co/index.html?sent=1">
 
   <div class="my-3">
     <div class="loading">Cargando...</div>
@@ -345,6 +349,12 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+<script>
+  const params = new URLSearchParams(window.location.search);
+  if (params.get('sent') === '1') {
+    document.getElementById('form-success')?.classList.remove('d-none');
+  }
+</script>
 
 </body>
 
