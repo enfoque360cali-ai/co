@@ -264,6 +264,21 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const params = new URLSearchParams(window.location.search);
+  const filtro = params.get("f");
+
+  if (filtro) {
+    setTimeout(() => {
+      const btn = document.querySelector('[data-filter=".filter-' + filtro + '"]');
+      if (btn) btn.click();
+    }, 500);
+  }
+});
+</script>
+
+  
 </body>
 
 </html>
