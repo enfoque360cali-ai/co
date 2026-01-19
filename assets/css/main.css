@@ -1868,3 +1868,11 @@ img[src*="logo.png"] {
     max-height: 110px;
   }
 }
+
+
+
+
+.clients .swiper-slide img {
+  max-height: 140px !important;
+  width: auto !important;
+}
