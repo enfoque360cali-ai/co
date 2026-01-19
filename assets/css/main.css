@@ -1873,6 +1873,6 @@ img[src*="logo.png"] {
 
 
 .clients .swiper-slide img {
-  max-height: 140px !important;
+  max-height: 280px !important;
   width: auto !important;
 }
