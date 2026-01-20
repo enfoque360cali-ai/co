@@ -306,7 +306,7 @@ h6 {
     margin: 0;
     padding: 0;
     display: flex;
-    list-: none;
+    list-style: none;
     align-items: center;
   }
 
@@ -421,7 +421,7 @@ h6 {
 
   .navmenu ul {
     display: none;
-    list-: none;
+    list-style: none;
     position: absolute;
     inset: 60px 20px 20px 20px;
     padding: 10px 0;
@@ -710,7 +710,7 @@ h6 {
 .page-title nav ol {
   display: flex;
   flex-wrap: wrap;
-  list-: none;
+  list-style: none;
   margin: 0;
   font-size: 16px;
   font-weight: 600;
@@ -929,7 +929,7 @@ section,
 }
 
 .about .content ul {
-  list-: none;
+  list-style: none;
   padding: 0;
 }
 
@@ -1062,7 +1062,7 @@ section,
 }
 
 .features .features-item ul {
-  list-: none;
+  list-style: none;
   padding: 0;
 }
 
@@ -1154,7 +1154,7 @@ section,
 .portfolio .portfolio-filters {
   padding: 0;
   margin: 0 auto 20px auto;
-  list-: none;
+  list-style: none;
   text-align: center;
 }
 
@@ -1367,7 +1367,7 @@ section,
 
 .pricing ul {
   padding: 20px 0;
-  list-: none;
+  list-style: none;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
   text-align: left;
   line-height: 20px;
@@ -1649,7 +1649,7 @@ section,
 }
 
 .portfolio-details .portfolio-info ul {
-  list-: none;
+  list-style: none;
   padding: 0;
   font-size: 15px;
 }
@@ -1793,7 +1793,7 @@ section,
 }
 
 .service-details ul {
-  list-: none;
+  list-style: none;
   padding: 0;
   font-size: 15px;
 }
