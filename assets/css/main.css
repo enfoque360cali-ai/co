@@ -1830,11 +1830,15 @@ section,
 
 
 /* ================================
-   CLIENTS / LOGOS SLIDER
+   CLIENTS / LOGOS SLIDER (FIX FINAL)
 ================================ */
 
+.clients .swiper {
+  overflow: visible;
+}
+
 .clients .swiper-slide {
-  width: 260px;              /* 👈 AUMENTA EL TAMAÑO REAL */
+  width: 420px;            /* ⬅️ TAMAÑO REAL DEL LOGO */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1843,25 +1847,15 @@ section,
 .clients .swiper-slide img {
   width: 100%;
   height: auto;
-  max-height: none;          /* 👈 MUY IMPORTANTE */
-  transition: transform 0.3s ease;
-}
-
-.clients .swiper-slide a:hover img {
-  transform: scale(1.08);
+  max-height: none;
+  display: block;
 }
 
 /* MÓVIL */
 @media (max-width: 768px) {
   .clients .swiper-slide {
-    width: 400px;
+    width: 520px;
   }
 }
 
-
-/* FORZAR TAMAÑO REAL DE LOGOS */
-.clients .swiper-slide img {
-  max-height: 660px !important;
-  width: auto !important;
-}
 
