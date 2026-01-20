@@ -1857,3 +1857,11 @@ section,
     width: 200px;
   }
 }
+
+
+/* FORZAR TAMAÑO REAL DE LOGOS */
+.clients .swiper-slide img {
+  max-height: 220px !important;
+  width: auto !important;
+}
+
